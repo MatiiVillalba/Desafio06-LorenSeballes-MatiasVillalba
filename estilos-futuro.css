@@ -1,0 +1,153 @@
+/* Estilo General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #0f0f0f 25%, #1f1f1f 75%);
+}
+
+/* Contenedor Principal */
+.contenedor {
+    width: 600px;
+    background-image: url(./image/img1.jpg);
+    background-size:cover;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    border: 2px solid #00ffcc;
+}
+
+/* Título */
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    color: #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.subTitulo {
+    font-size: 1.5em;
+    color: #00ffcc;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Formulario */
+form {
+    width: 100%;
+}
+
+fieldset {
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #222222;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+legend {
+    
+    font-size: 1.2em;
+    color: #00ffcc;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="email"], textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    background-color: #333333;
+    color: #00ffcc;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 0 0 10px #00ffcc;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 12px;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #1a1a1a;
+    color: #00ffcc;
+    box-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+}
+
+input[type="submit"] {
+    margin-right: 4%;
+}
+
+/* Estilos Adicionales */
+p {
+    margin: 10px 0;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.confirmar {
+    background-color: #1a1a1a;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px #00ffcc;
+    margin-bottom: 25px;
+}
+
+.confirmar input {
+    margin-left: 20px;
+}
+
+.confirmar p {
+    margin-left: 20px;
+}
+
+.confirmar label {
+    margin-top: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}

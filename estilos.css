@@ -18,15 +18,15 @@
 }
 
 .subTitulo{
-
+    text-transform:uppercase;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-background-color: #2b3d37;
-color: aliceblue;
-padding: 6px;
-border-radius: 6px;
-margin-left: 10px;
+    background-color: #2b3d37;
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: 10px;
 }
 
 fieldset{
@@ -44,8 +44,8 @@ fieldset:hover{
 }
 
 input{
-    width: 400px;
-    padding: 5px;
+    width: 500px;
+    padding: 6px;
     border-radius: 4px;
     margin-top: 10px;
     border: 0;
@@ -57,17 +57,17 @@ label .radio{
 
 
 select{
-    width: 400px;
-    padding: 5px;
+    width: 500px;
+    padding: 6px;
     border-radius: 4px;
     margin-top: 10px;
     border: 0;
 }
 
 textarea{
-    width: 400px;
+    width: 500px;
     height: 100px;
-    padding: 5px;
+    padding: 6px;
     border-radius: 4px;
     margin-top: 10px;
     border: 0;
