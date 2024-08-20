@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .contenedor{
     background-color:black;
+}
+
+.contenedorForm{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .titulo{
@@ -8,25 +17,32 @@
     color: white;
 }
 
-.formulario{
-    margin-left: 15rem;
-    margin-right: 15rem;
-}
-
 .subTitulo{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 background-color: #2b3d37;
 color: aliceblue;
 padding: 6px;
 border-radius: 6px;
+margin-left: 10px;
 }
 
 fieldset{
     display: flex;
-    width: 600px;
-    background-color: #a6c1b9;
+    width: 800px;
+    background-color: #d6e2de;
     flex-direction: column;
     align-items: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
+fieldset:hover{
+    background-color: #a6c1b9;
+}
+
 input{
     width: 400px;
     padding: 5px;
@@ -34,6 +50,12 @@ input{
     margin-top: 10px;
     border: 0;
 }
+/*VER ESTO*/
+label .radio{
+    width: 10px;
+}
+
+
 select{
     width: 400px;
     padding: 5px;
@@ -49,4 +71,74 @@ textarea{
     border-radius: 4px;
     margin-top: 10px;
     border: 0;
+}
+
+hr{
+    display: flex;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px dotted #a6c1b9;
+    width: 39%;
+    margin-top: 20px;
+}
+
+.seleccion{
+    margin-bottom: 15px;
+}
+
+.datos{
+    padding-bottom: 15px;
+}
+
+.actividades{
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    margin-left: 10px;
+}
+.palermo input{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.rosario input {
+    width: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.confirmar{
+    color: white;
+    margin-top: 15px;
+}
+.confirmar input{
+    width: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.botones input{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #2b3d37;
+    color: #a6c1b9;
+
+}
+input:hover {
+    background-color: #2b3d37;
+}
+
+select:hover{
+    background-color: #2b3d37;
+}
+
+textarea:hover{
+    background-color: #2b3d37;
 }
